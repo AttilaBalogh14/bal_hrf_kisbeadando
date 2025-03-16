@@ -53,34 +53,34 @@ private:
 
     void draw_diamond()
     {      
-        publish_message(0.0, 5*M_PI / 4);  // Fordulás 45 fokot jobbra
+        publish_message(0.0, 5*M_PI / 4);  // Fordulás 
         publish_message(1, 0.0);  // Előrehaladás
-        publish_message(0.0, 136*M_PI / 180);  // Fordulás 45 fokot jobbra
+        publish_message(0.0, 136*M_PI / 180);  // Fordulás 
         publish_message(4, 0.0);  // Előrehaladás
-        publish_message(0.0, 3*M_PI / 4);  // Fordulás 45 fokot jobbra
+        publish_message(0.0, 3*M_PI / 4);  // Fordulás
         publish_message(1, 0.0);  // Előrehaladás
-        publish_message(0.0, 44.8*M_PI / 180);  // Fordulás 45 fokot jobbra
+        publish_message(0.0, 44.8*M_PI / 180);  // Fordulás 
         publish_message(2.55, 0.0);  // Előrehaladás
-        publish_message(0.0, 3*M_PI / 4);  // Fordulás 45 fokot jobbra
+        publish_message(0.0, 3*M_PI / 4);  // Fordulás 
 
         for (int i = 0; i < 2; ++i)  // 2 oldal felfelé és lefelé
         {
             publish_message(0.9, 0.0);  // Előrehaladás
-            publish_message(0.0, M_PI / 2);  // Fordulás 90 fokot balra (180 - 45*2)
+            publish_message(0.0, M_PI / 2);  // Fordulás 
             publish_message(0.9, 0.0);  // Előrehaladás
-            publish_message(0.0, -M_PI / 2);  // Fordulás 90 fokot balra (180 - 45*2)
+            publish_message(0.0, -M_PI / 2);  // Fordulás 
         }
 
         publish_message(1, 0.0);  // Előrehaladás
-        publish_message(0.0, -M_PI / 2);  // Fordulás 90 fokot balra (180 - 45*2)
+        publish_message(0.0, -M_PI / 2);  // Fordulás 
         publish_message(3.3, 0.0);  // Előrehaladás
-        publish_message(0.0, -157*M_PI / 180);  // Fordulás 90 fokot balra (180 - 45*2)
+        publish_message(0.0, -157*M_PI / 180);  // Fordulás 
         publish_message(2.55, 0.0);  // Előrehaladás
-        publish_message(0.0, 111.6*M_PI / 180);  // Fordulás 90 fokot balra (180 - 45*2)
+        publish_message(0.0, 111.6*M_PI / 180);  // Fordulás 
         publish_message(1.265, 0.0);  // Előrehaladás
-        publish_message(0.0, 96.5*M_PI / 180);  // Fordulás 90 fokot balra (180 - 45*2)
+        publish_message(0.0, 96.5*M_PI / 180);  // Fordulás 
         publish_message(2.4, 0.0);  // Előrehaladás
-        publish_message(0.0, -5*M_PI / 6);  // Fordulás 90 fokot balra (180 - 45*2)
+        publish_message(0.0, -5*M_PI / 6);  // Fordulás 
         publish_message(2.8, 0.0);  // Előrehaladás
     }
 
